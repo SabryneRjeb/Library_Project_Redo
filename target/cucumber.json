@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-26T07:41:05.603Z",
+        "line": 10,
+        "name": "Student login",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-login-to-the-library-app;student-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4683000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as student with \"student1\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student1\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"password1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.library.steps_definitions.Login_Function.user_login_as_student_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat com.library.steps_definitions.Login_Function.the_student_on_homepage(Login_Function.java:23)\n\tat ✽.the student on Homepage(file:///Users/sabryne/Desktop/Library_Project_Redo/src/test/resources/features/Login.feature:7)\n",
+              "duration": 20000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the student on Homepage",
+            "match": {
+              "location": "com.library.steps_definitions.Login_Function.the_student_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T07:41:10.438Z",
+        "line": 11,
+        "name": "Student login",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-login-to-the-library-app;student-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy16.sendKeys(Unknown Source)\n\tat com.library.steps_definitions.Login_Function.user_login_as_student_with_and(Login_Function.java:16)\n\tat ✽.user login as student with \"student2\" and \"password2\"(file:///Users/sabryne/Desktop/Library_Project_Redo/src/test/resources/features/Login.feature:6)\n",
+              "duration": 331000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user login as student with \"student2\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student2\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"password2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.library.steps_definitions.Login_Function.user_login_as_student_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the student on Homepage",
+            "match": {
+              "location": "com.library.steps_definitions.Login_Function.the_student_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T07:41:10.787Z",
+        "line": 12,
+        "name": "Student login",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-login-to-the-library-app;student-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 489000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login as student with \"student3\" and \"password3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student3\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"password3\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.library.steps_definitions.Login_Function.user_login_as_student_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat com.library.steps_definitions.Login_Function.the_student_on_homepage(Login_Function.java:23)\n\tat ✽.the student on Homepage(file:///Users/sabryne/Desktop/Library_Project_Redo/src/test/resources/features/Login.feature:7)\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the student on Homepage",
+            "match": {
+              "location": "com.library.steps_definitions.Login_Function.the_student_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T07:41:11.289Z",
+        "line": 19,
+        "name": "librarian login",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-login-to-the-library-app;librarian-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 326000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user login as librarian with \"librarianUsername\" and \"librarianPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarianUsername\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"librarianPassword\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.library.steps_definitions.Login_Function.user_login_as_librarian_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat com.library.steps_definitions.Login_Function.the_librarian_on_homepage(Login_Function.java:38)\n\tat ✽.the librarian on Homepage(file:///Users/sabryne/Desktop/Library_Project_Redo/src/test/resources/features/Login.feature:16)\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "the librarian on Homepage",
+            "match": {
+              "location": "com.library.steps_definitions.Login_Function.the_librarian_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to login to the library app",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-login-to-the-library-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
